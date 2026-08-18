@@ -6,7 +6,7 @@ class Solution:
         left = 0
 
         for right in range(n):
-            if s[right] not in charSet
+            if s[right] not in charSet:
                 charSet.add(s[right])
                 maxLength = max(maxLength, right - left + 1)
 
